@@ -1,6 +1,8 @@
 # optimal-weighted-random-forest
 
-Recap
+
+
+[Recap result](img/Tableau_resultat.png)
 
 ## How to use it ?
 -----
