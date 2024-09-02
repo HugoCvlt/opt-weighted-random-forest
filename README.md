@@ -1,6 +1,17 @@
 # optimal-weighted-random-forest
 
-This repository contains the implementation of Optimal Weighted Random Forest (OWRF) based on the method described by Chen, X., Liu, Y., & Zhang, H. (2022). Optimal Weighted Random Forest: A New Approach for Data Classification. *Journal of Machine Learning Research, 23*(4), 123-145. https://doi.org/10.1234/jmlr.v23i4.7890
+This repository contains the implementation of Optimal Weighted Random Forest (OWRF) based on the method described here :
+
+@misc{chen2023optimalweightedrandomforests,
+      title={Optimal Weighted Random Forests}, 
+      author={Xinyu Chen and Dalei Yu and Xinyu Zhang},
+      year={2023},
+      eprint={2305.10042},
+      archivePrefix={arXiv},
+      primaryClass={stat.ML},
+      url={https://arxiv.org/abs/2305.10042}, 
+}
+
 
 The repository includes two versions of the code: one optimized for large-scale data processing using Apache Spark (we didn't try this version du to the non-availability of Spark), and another for smaller datasets without Spark (it's possible to go until 100 trees and 5000 data points).
 
