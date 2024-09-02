@@ -21,6 +21,8 @@ pip install -r requirements.txt
 ### Example
 
 ```python
+  from opt-weighted-random-forest import Opt_WRF
+
   X_train = pd.read_csv(your_path)
   y_train = pd.read_csv(your_path)
   
