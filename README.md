@@ -2,7 +2,7 @@
 
 
 
-[Recap result](img/Tableau_resultat.png)
+[Recap result](img/Tableau_resultat.PNG)
 
 ## How to use it ?
 -----
