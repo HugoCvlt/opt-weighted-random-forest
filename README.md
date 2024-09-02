@@ -2,7 +2,7 @@
 
 This repository contains the implementation of Optimal Weighted Random Forest (OWRF) based on the method described here :
 
-@misc{chen2023optimalweightedrandomforests,
+@inproceedings{chen2023optimalweightedrandomforests,
       title={Optimal Weighted Random Forests}, 
       author={Xinyu Chen and Dalei Yu and Xinyu Zhang},
       year={2023},
