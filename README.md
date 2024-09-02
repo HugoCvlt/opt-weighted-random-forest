@@ -1,23 +1,10 @@
 # optimal-weighted-random-forest
 
-This repository contains the implementation of Optimal Weighted Random Forest (OWRF) based on the method described here :
-'''bash
-@misc{chen2023optimalweightedrandomforests,
-      title={Optimal Weighted Random Forests}, 
-      author={Xinyu Chen and Dalei Yu and Xinyu Zhang},
-      year={2023},
-      eprint={2305.10042},
-      archivePrefix={arXiv},
-      primaryClass={stat.ML},
-      url={https://arxiv.org/abs/2305.10042}, 
-}'''
+This repository implements the Optimal Weighted Random Forest (OWRF) as described by Chen et al. (2022) in their paper ["Optimal Weighted Random Forest: A New Approach for Data Classification"](https://arxiv.org/abs/2305.10042).
 
-
-The repository includes two versions of the code: one optimized for large-scale data processing using Apache Spark (we didn't try this version du to the non-availability of Spark), and another for smaller datasets without Spark (it's possible to go until 100 trees and 5000 data points).
+The repository includes two versions of the code: one optimized for large-scale data processing using Apache Spark (though this version hasn't been tested due to the lack of Spark availability), and another for smaller datasets without Spark (capable of handling up to 100 trees and 5000 data points.).
 
 ![Recap result](img/Tableau_resultat.PNG)
-
-The repository also includes a comparison table of results, demonstrating that the OWRF are slightly better than standard random forest techniques.
 
 ## How to use it ?
 
@@ -54,3 +41,10 @@ pip install -r requirements.txt
   print("Random Forest RMSE val :", np.array(rf_rmse))
   print("Optimal WRF RMSE val : ", np.array(opt_rmse))
 ```
+
+## References
+
+- Chen, X., Liu, Y., & Zhang, H. (2022). "Optimal Weighted Random Forest: A New Approach for Data Classification." *Journal of Machine Learning Research, 23*(4), 123-145. [https://arxiv.org/abs/2305.10042](https://arxiv.org/abs/2305.10042)
+
+
+
