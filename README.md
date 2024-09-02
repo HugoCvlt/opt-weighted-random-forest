@@ -2,7 +2,7 @@
 
 This repository implements the Optimal Weighted Random Forest (OWRF) as described by Chen et al. (2022) in their paper ["Optimal Weighted Random Forest: A New Approach for Data Classification"](https://arxiv.org/abs/2305.10042).
 
-The repository includes two versions of the code: one optimized for large-scale data processing using Apache Spark (though this version hasn't been tested due to the lack of Spark availability), and another for smaller datasets without Spark (capable of handling up to 100 trees and 5000 data points.).
+We also include two versions of the code: one optimized for large-scale data processing using Apache Spark (though this version hasn't been tested due to the lack of Spark availability), and another for smaller datasets without Spark (capable of handling up to 100 trees and 5000 data points.).
 
 ![Recap result](img/Tableau_resultat.PNG)
 
@@ -18,7 +18,7 @@ git clone https://github.com/HugoCvlt/opt-weighted-random-forest.git
 pip install -r requirements.txt
 ```
 
-### Exemple
+### Example
 
 ```python
   X_train = pd.read_csv(your_path)
