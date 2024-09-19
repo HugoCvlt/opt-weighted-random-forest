@@ -10,7 +10,7 @@ from sklearn.tree import DecisionTreeRegressor
 from sklearn.model_selection import train_test_split
 from scipy import optimize
 
-class Opt_WRF():
+class Opt_WRF_spark():
 
     def __init__(self, X, y, Mn, n_min):
         """
